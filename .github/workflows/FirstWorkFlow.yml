@@ -1,0 +1,10 @@
+name: First WorkFlow For testing CI
+on: workflow_dispatch
+jobs:
+  jobNameJTest:
+       runs-on: ubuntu-latest
+       steps:
+         - name: Test Case to validate user can navigate to Facebook
+           run: echo "First Test will run"
+         - name: Once Test case Run completed
+           run: echo " Start your tear down process "
